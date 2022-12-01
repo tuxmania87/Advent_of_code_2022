@@ -18,11 +18,6 @@ int main() {
         while (getline(myfile, line)) {
             
             if(line.empty()) {
-                cout << "DD " << summe << " XX " << max_sum << endl;
-                if(summe > max_sum) {
-                    max_sum = summe;
-                    
-                }
                 all_sums.push_back(summe);
                 summe = 0;
             }
