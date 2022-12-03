@@ -1,4 +1,5 @@
 /.vscode
-/day1.exe
-/day1.input
 /day1.py
+*.exe
+*.input
+test.cpp
